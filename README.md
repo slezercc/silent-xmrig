@@ -10,7 +10,7 @@ You will start by needing a Monero address and a monero mining pool, (MoneroOcea
 
 ```json
 {
-   "url": "gulf.moneroocean.stream:10064 ", # mining pool url (leave as default if you don't know what a mining pool is)
+   "url": "gulf.moneroocean.stream:10128 ", # mining pool url (leave as default if you don't know what a mining pool is)
    "user": "MONERO-ADDRESS-HERE", # your Monero address
    "pass": "hidden", # name of the machine that will be displayed on the mining pool
 }
