@@ -1,6 +1,5 @@
 # Silent XMRig
-Si. Spreads manually on a USB stick (only one file to start and the target computer is affected.)
-
+Silent XMRig miner config with installer and startup.
 
 # Setup
 
