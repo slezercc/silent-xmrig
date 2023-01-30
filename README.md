@@ -1,5 +1,5 @@
-# Monero Mining Worm
-Monero Mining worm. Spreads manually on a USB stick (only one file to start and the target computer is affected.)
+# Silent XMRig
+Si. Spreads manually on a USB stick (only one file to start and the target computer is affected.)
 
 
 # Setup
