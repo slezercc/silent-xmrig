@@ -1,6 +1,8 @@
 # Silent XMRig
 Silent XMRig miner config with installer and startup.
 
+This project is loosely put together, you should consider using this more complete project instead: [https://github.com/UnamSanctam/SilentCryptoMiner](https://github.com/UnamSanctam/SilentCryptoMiner)
+
 # This project is intended for testing/research purposes only.
 
 # Setup
